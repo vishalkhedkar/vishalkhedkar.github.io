@@ -1,42 +1,49 @@
 body {
   font-family: 'Product Sans';
-  color: #37474F;
-    margin: auto;
-    width: 50%;
+  color: #37474f;
+  max-width: 80%;
+  margin: auto;
 }
 
 #marks {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-#marks td, #marks th {
-    border: 2px solid #ddd;
-    padding: 8px;
+#marks td,
+#marks th {
+  border: 2px solid #ddd;
+  padding: 8px;
 }
 
-#marks tr:hover {background-color: #ddd;}
+#marks tr:hover {
+  background-color: #ddd;
+}
 
 #marks th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4DB6AC;
-    color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4db6ac;
+  color: white;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 #footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
+  color: dimgray;
+  font-size: 12px;
 }
 
 #buttonn {
-  width: 100px; 
+  width: 100px;
   margin: 0 auto;
   text-align: center;
 }
