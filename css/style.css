@@ -1,0 +1,42 @@
+body {
+  font-family: 'Product Sans';
+  color: #37474F;
+    margin: auto;
+    width: 50%;
+}
+
+#marks {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#marks td, #marks th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+#marks tr:hover {background-color: #ddd;}
+
+#marks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4DB6AC;
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#footer {
+  text-align: center;
+}
+
+#buttonn {
+  width: 100px; 
+  margin: 0 auto;
+  text-align: center;
+}
