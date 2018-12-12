@@ -3,6 +3,7 @@ body {
   color: #37474f;
   max-width: 80%;
   margin: auto;
+  font-weight: 300;
 }
 
 #marks {
