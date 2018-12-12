@@ -1,8 +1,9 @@
 body {
-  font-family: 'Product Sans';
+  font-family: 'Open Sans', sans-serif;
   color: #37474f;
   max-width: 80%;
   margin: auto;
+  /* font-weight: 100; */
 }
 
 #marks {
