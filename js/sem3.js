@@ -41,10 +41,6 @@ function calc() {
   document.getElementById('res').innerHTML =
     '<h2>Your GPA is: ' + gpa + '</h2>';
 
-  if (java == 95) {
-    alert('Omkar kutte, congrats!');
-  }
-
   console.log(gpa);
 }
 
