@@ -1,0 +1,1 @@
+document.write('<div id="footer"> &copy;2019 Vishal Khedkar <br>The use of this tool to calculate your GPA is free, however the creator does not assure you of any accuracy.<br>Attempt has been made to make it as correct as possible.<br>You accept that the creator is not liable for any claims in case the information provided is inaccurate.</div>')
