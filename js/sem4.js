@@ -45,6 +45,7 @@ function calc() {
 
   if (java == 95) {
     alert('Omkar kutte, congrats!');
+    console.log('Omkar kutte, congrats!');
   }
 
   console.log(gpa);
