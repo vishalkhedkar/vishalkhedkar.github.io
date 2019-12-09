@@ -36,7 +36,7 @@ function calc() {
 
   console.log(total_credits);
 
-  var gpa = parseFloat((total_credits / 24).toPrecision(4));
+  var gpa = parseFloat((total_credits / 24).toPrecision(3));
   document.getElementById('res').innerHTML =
     '<h2>Your GPA is: ' + gpa + '</h2>';
 
