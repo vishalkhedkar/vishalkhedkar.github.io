@@ -19,8 +19,8 @@ function calc() {
     gradePoints(javal), //5
     gradePoints(dbl), //6
     gradePoints(uml), //7
-    gradePoints(dwl), //8
-    gradePoints(mp) //9
+    gradePoints(dwl) //8
+    //gradePoints(mp) //9
   ];
 
   console.log(gradep);
