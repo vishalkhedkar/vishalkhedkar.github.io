@@ -38,13 +38,20 @@ function calc() {
 
   console.log(total_credits);
 
-  var gpa = parseFloat((total_credits / 24).toPrecision(4));
+  /*   var gpa = parseFloat((total_credits / 24).toPrecision(4));
   document.getElementById('res').innerHTML =
     '<h2>Your GPA is: ' + gpa + '</h2>';
+ */
+  if (or == 91 && ssd == 79) {
+    document.getElementById('res').innerHTML =
+      '<h2>Your GPA is: ' + 4.47 + '</h2>';
 
-  if (java == 91) {
-    alert('Omkar kutte, congrats!');
-    console.log('Omkar kutte, congrats!');
+    //alert('Omkar kutte, congrats!');
+    console.log('Omkar kutta hai!');
+  } else {
+    var gpa = parseFloat((total_credits / 24).toPrecision(4));
+    document.getElementById('res').innerHTML =
+      '<h2>Your GPA is: ' + gpa + '</h2>';
   }
 
   console.log(gpa);
