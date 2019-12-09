@@ -3,12 +3,12 @@ function calc() {
   var dbms = parseInt(document.getElementById('dbm').value);
   var or = parseInt(document.getElementById('orm').value);
   var ssd = parseInt(document.getElementById('ssdm').value);
-  var ai = parseInt(document.getElementById('aim').value) / 40) * 100;
+  var ai = (parseInt(document.getElementById('aim').value) / 40) * 100;
   var javal = (parseInt(document.getElementById('javalm').value) / 40) * 100;
   var dbl = (parseInt(document.getElementById('dblm').value) / 40) * 100;
   var uml = (parseInt(document.getElementById('umlm').value) / 50) * 100;
   var dwl = 100;
- // var mp = (parseInt(document.getElementById('mpm').value) / 50) * 100;
+  // var mp = (parseInt(document.getElementById('mpm').value) / 50) * 100;
 
   var gradep = [
     gradePoints(java), //0
@@ -34,7 +34,7 @@ function calc() {
     1 * gradep[5] +
     1 * gradep[6] +
     1 * gradep[7] +
-    4 * gradep[8] ;
+    4 * gradep[8];
 
   console.log(total_credits);
 
