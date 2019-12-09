@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GPA Calculator for MCA Sem 5</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <a href="index.html" style="text-decoration: none"> <h1 align="center" style="font-weight:400;">GPA Calculator for MCA SEM V</h1> </a>
+  <h3 style="font-weight:400;">Enter Marks:</h3>
+  <table id="marks">
+    <tr>
+      <th>Subject</th>
+      <th>Obtained Marks</th>
+    </tr>
+    <tr>
+      <td> DCCC </td>
+      <td> <input type="number" id="javam" required> </input> </td>
+    </tr>
+    <tr>
+      <td> DA </td>
+      <td> <input type="number" id="dbm" required> </input> </td>
+    </tr>
+    <tr>
+      <td> IoT </td>
+      <td> <input type="number" id="orm" required> </input> </td>
+    </tr>
+    <tr>
+      <td> ML / CS </td>
+      <td> <input type="number" id="ssdm" required> </input> </td>
+    </tr>
+    <tr>
+      <td> DCCC Lab </td>
+      <td> <input type="number" id="aim" required> </input> </td>
+    </tr>
+    <tr>
+      <td> DA Lab </td>
+      <td> <input type="number" id="javalm" required> </input> </td>
+    </tr>
+    <tr>
+      <td> GA Lab </td>
+      <td> <input type="number" id="dblm" required> </input> </td>
+    </tr>
+    <tr>
+      <td> MP Lab </td>
+      <td> <input type="number" id="umlm" required> </input> </td>
+    </tr>
+    <tr>
+        <td> MP Lab </td>
+        <td> <input type="number" id="dwl" required> </input> </td>
+      </tr>
+    <tr>
+      <td> MOOC </td>
+      <td> <input disabled type="number" value="Assumed 4 Credits" id="mpm" required> </input> </td>
+    </tr>
+    <tr>
+      <td colspan=2 align=center>
+        <button id="buttonn" type="submit" value="Submit" onclick="calc()">Submit</button>
+        <!-- <input id="buttonn" type="reset" value="Reset"> </input> -->
+      </td>
+    </tr>
+  </table>
+  <br>
+  <div id="res" align="center"> </div>
+  <br> <br>
+
+  
+  <div align="center">
+      <h3 align="center" style="font-weight:400;">
+          Was this tool helpful to you? Say thanks to the creator:<br/>
+          <small>(I would love to know your score too!)</small>
+        </h3>
+
+      <button
+        onclick="window.open('https://www.facebook.com/KrazzyVishal', '_blank');"
+        class="loginBtn loginBtn--facebook"
+      >
+        Facebook
+      </button>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <button
+        onclick="window.open('https://www.instagram.com/_u/thevishalkhedkar', '_blank');"
+        class="loginBtn loginBtn--instagram"
+      >
+        Instagram
+      </button>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <button
+        onclick="window.open('https://github.com/vishalkhedkar', '_blank');"
+        class="loginBtn loginBtn--github"
+      >
+        GitHub
+      </button>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <button
+        onclick="window.open('https://goo.gl/jWraHV', '_blank');"
+        class="loginBtn loginBtn--whatsapp"
+      >
+        WhatsApp
+      </button>
+    </div>
+    <br /><br />
+    <h3 align="center" style="font-weight:400;">
+        Built with ❤️ by
+        <a href="https://www.facebook.com/KrazzyVishal">Vishal Khedkar</a>
+      </h3>
+    <br /><br />
+
+    <script language="javascript" type="text/javascript" 
+    src="footer.txt"></script>
+  
+
+  <script src="js/sem5.js"></script>
+
+</body>
+
+</html>
